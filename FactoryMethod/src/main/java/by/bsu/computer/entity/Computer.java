@@ -14,6 +14,30 @@ public abstract class Computer {
     public Computer(ComputerType TYPE) {
         this.TYPE = TYPE;
     }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
+    public void setMotherboard(Motherboard motherboard) {
+        this.motherboard = motherboard;
+    }
+
+    public Cpu getCpu() {
+        return cpu;
+    }
+
+    public void setCpu(Cpu cpu) {
+        this.cpu = cpu;
+    }
+
+    public Rom getRom() {
+        return rom;
+    }
+
+    public void setRom(Rom rom) {
+        this.rom = rom;
+    }
     
     
     
