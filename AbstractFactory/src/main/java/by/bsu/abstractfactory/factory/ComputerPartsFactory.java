@@ -1,0 +1,17 @@
+package by.bsu.abstractfactory.factory;
+
+import by.bsu.abstractfactory.entity.Cpu;
+import by.bsu.abstractfactory.entity.Motheboard;
+import by.bsu.abstractfactory.entity.Rom;
+
+/**
+ *
+ * @author Elena Vizgalova
+ */
+public abstract class ComputerPartsFactory {
+    
+    public abstract Cpu createCpu();
+    public abstract Motheboard createMotherboard();
+    public abstract Rom createRom();
+    
+}
