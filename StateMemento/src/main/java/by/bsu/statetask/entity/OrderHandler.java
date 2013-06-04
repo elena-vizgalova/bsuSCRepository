@@ -6,22 +6,26 @@ import by.bsu.statetask.memento.Memento;
  *
  * @author Elena Vizgalova
  */
-public class OrderHandler {
+public final class OrderHandler {
     private Memento memento;
 
-    public Memento getMemento() {
-        return memento;
+    public OrderHandler( Memento memento ) {
+        this.memento = new Memento( 
+                memento.getState(), memento.getItemMap() );
     }
 
-    public void setMemento(Memento memento) {
-        this.memento = memento;
+    public Memento getMemento() {
+        Memento newMemento = new Memento( memento.getState(), memento.getItemMap() );
+        return newMemento;
     }
-    
+
     public void saveState( Order order ) {
-        memento = order.getMemento();
+        Memento memento = order.getMemento();
+        this.memento = new Memento( 
+                memento.getState(), memento.getItemMap() );
     }
     
-    public  Order loadOrder() {
+    public Order loadOrder() {
         Order order = new Order();
         
         order.setMemento( memento );
