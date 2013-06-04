@@ -1,0 +1,12 @@
+<div id="footer">
+    <fmt:setBundle basename="resource.messages" />
+    <br>
+    <hr id="footerDivider">
+    <p id="footerText" class="reallySmallText">
+        <a href="<c:url value='#'/>"><fmt:message key="contact" /></a>
+        &nbsp;&nbsp;&copy;&nbsp;&nbsp;
+        2013 Yummy Books</p>
+</div>
+</div>
+</body>
+</html>

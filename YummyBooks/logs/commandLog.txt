@@ -1,0 +1,1 @@
+2013-02-15 18:33:48,028 [ERROR][bio-8084-exec-75][ummybook.command.HomepageCommand] - by.epam.yummybook.controller.ParameterWrapperException: paramValue to set can't be null!
