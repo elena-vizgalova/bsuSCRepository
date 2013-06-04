@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="E:/NetBeansProjects/BookStore/src/main/resources/categories.xmlcategoriesPageTransformer.xsl"?>
+<categories>
+<category>
+    <name>Fiction</name>
+</category>
+<category>
+    <name>ChildrenBook</name>
+</category>
+<category>
+    <name>Arts</name>
+</category>
+<category>
+    <name>PopularScience</name>
+</category>
+</categories>
