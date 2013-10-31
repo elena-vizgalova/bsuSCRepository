@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<propertynames
+        xmlns="http://www.bsu.by/appconfig"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <proplist>
+      <prop>window.background.color</prop>
+      <prop>window.height</prop>
+      <prop>window.width</prop>
+    </proplist>
+</propertynames>
